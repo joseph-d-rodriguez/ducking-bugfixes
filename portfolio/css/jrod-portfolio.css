@@ -23,6 +23,15 @@
 	max-height: 160px;
 }
 
+/* Using bootstrap standard media query sizes to resize images based on different device screen sizes */
+/* Tablet sizes make images look too stretched, so we squish them by adding padding on the left and right */
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 992px) {
+	.featured-work img {
+		padding: 0 20%;
+	}
+}
+
 .featured-work h3 {
 	text-align: center;
 	text-transform: uppercase;
@@ -45,3 +54,5 @@ h1, h4 {
 	font-family: 'Quicksand', sans-serif;
 	color: grey;
 }
+
+
