@@ -1,87 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
+	<head>
+		<!-- google fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
 		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="css/jrod-portfolio.css">
         <script src="js/jrod-portfolio.js"></script>
-    </head>
-    <body>
-<!-- Large modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
 
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      ...
-    </div>
-  </div>
-</div>
+		<title>J-Rod</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row"><!-- Name header -->
+				<span class="col-xs-6">
+					<img class="j-rod-logo" src="img/J-Rod_logo.png" alt="j-rod's logo">
+				</span>
+				<div class="col-xs-6 text-uppercase text-right">
+					<h1>Joseph Rodriguez</h1>
+					<h4>front-end ninja</h4>
+				</div>
+			</div>
+
+			<hr class="header-separator" />
+
+			<div class="row">
+				<span class="col-xs-12">
+					<img class="main-img" src="img/main-img.png" alt="j-rod's main content">
+				</span>
+			</div>
 
 
-    	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#aModal">
-  Launch demo modal
-</button>
-    	<div class="modal fade" id="aModal" role="dialog">
-    		<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4 class="modal-title">Modal Title</h4>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="featured-work">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>Featured Work</h2>
 					</div>
-					<div class="modal-body">
-						<p>One fine body&hellip;</p>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-md-4">
+						<img src="http://pubpages.unh.edu/~tct28/htmlphoto.jpg" alt="image displaying HTML">
+						<h3>html</h3>
+						<a href="https://en.wikipedia.org/wiki/HTML">https://en.wikipedia.org/wiki/HTML</a>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary">Save changes</button>
+
+					<div class="col-xs-12 col-md-4">
+						<img src="http://nicelydonecss.com/wp-content/uploads/2015/03/css-icon.png" alt="image displaying CSS">
+						<h3>css</h3>
+						<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">https://en.wikipedia.org/wiki/Cascading_Style_Sheets</a>
+					</div>
+
+					<div class="col-xs-12 col-md-4">
+						<img src="http://javascript.tutorialhorizon.com/files/2015/07/javascript.png" alt="image displaying Javascript">
+						<h3>javascript</h3>
+						<a href="https://en.wikipedia.org/wiki/JavaScript">https://en.wikipedia.org/wiki/JavaScript</a>
 					</div>
 				</div>
 			</div>
-    	</div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6"><img src="http://placehold.it/100x100"></div>
-                <div class="col-md-6 text-uppercase text-right">
-                    <h1>Jane Doette</h1>
-                    <h3>Front-end Ninja</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <img class="img-responsive" src="http://placehold.it/1140x350">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Featured Work</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="http://placehold.it/555x300">
-                    <h3>Appify</h3>
-                    <p><a data-toggle="modal" data-target="#aModal" href="#">Link to project</a></p>
-                </div>
-                <div class="col-md-6">
-                    <img src="http://placehold.it/555x300">
-                    <h3>Appify</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="http://placehold.it/555x300">
-                    <h3>Appify</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
-                <div class="col-md-6">
-                    <img src="http://placehold.it/555x300">
-                    <h3>Appify</h3>
-                    <p><a href="http://github.com">Link to project</a></p>
-                </div>
-            </div>
-        </div>
-    </body>
+		</div>
+	</body>
 </html>
