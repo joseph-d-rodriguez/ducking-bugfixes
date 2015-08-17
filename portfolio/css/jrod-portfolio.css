@@ -1,5 +1,5 @@
 .j-rod-logo {
-	width:20%;
+	width: 20%;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
@@ -26,7 +26,7 @@
 /* Using bootstrap standard media query sizes to resize images based on different device screen sizes */
 /* Tablet sizes make images look too stretched, so we squish them by adding padding on the left and right */
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
 	.featured-work img {
 		padding: 0 20%;
 	}
