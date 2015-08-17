@@ -1,5 +1,6 @@
 .j-rod-logo {
-	width: 20%;
+	height: 98px;
+	width: 98px;
 	margin: 20px 0 10px 0;
 }
 
@@ -19,7 +20,7 @@
 
 .featured-work-img {
 	width: 100%;
-	max-height: 160px;
+	height: 160px;
 }
 
 /* Using bootstrap standard media query sizes to resize images based on different device screen sizes */
