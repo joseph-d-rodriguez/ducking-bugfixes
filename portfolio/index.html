@@ -12,12 +12,73 @@
         <script src="js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" href="css/jrod-portfolio.css">
-        <script src="js/jrod-portfolio.js"></script>
 
 		<title>J-Rod</title>
 	</head>
 	<body>
 		<div class="container">
+			<!-- Modals -->
+			<div id="htmlModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">HTML of this page</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p id="htmlModalContent">here's the html</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+
+			<div id="cssModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">CSS (only custom) of this page</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p id="cssModalContent">Click <a href="css/jrod-portfolio.css">here</a> to see the custom CSS for this page</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+
+			<div id="jsModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">Javascript (only custom) of this page</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p id="jsModalContent">Click <a href="js/jrod-portfolio.js">here</a> to see the custom Javascript for this page</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+
+
 			<div class="row"><!-- Name header -->
 				<span class="col-xs-6">
 					<img class="j-rod-logo" src="img/J-Rod_logo.png" alt="j-rod's logo">
@@ -46,19 +107,25 @@
 
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-4">
-						<img src="http://pubpages.unh.edu/~tct28/htmlphoto.jpg" alt="image displaying HTML">
+						<a type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#htmlModal">
+							<img src="http://pubpages.unh.edu/~tct28/htmlphoto.jpg" alt="image displaying HTML">
+						</a>
 						<h3>html</h3>
 						<a href="https://en.wikipedia.org/wiki/HTML">https://en.wikipedia.org/wiki/HTML</a>
 					</div>
 
 					<div class="col-xs-12 col-sm-12 col-md-4">
-						<img src="http://nicelydonecss.com/wp-content/uploads/2015/03/css-icon.png" alt="image displaying CSS">
+						<a type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cssModal">
+							<img src="http://nicelydonecss.com/wp-content/uploads/2015/03/css-icon.png" alt="image displaying CSS">
+						</a>
 						<h3>css</h3>
 						<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">https://en.wikipedia.org/wiki/Cascading_Style_Sheets</a>
 					</div>
 
 					<div class="col-xs-12 col-sm-12 col-md-4">
-						<img src="http://javascript.tutorialhorizon.com/files/2015/07/javascript.png" alt="image displaying Javascript">
+						<a type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#jsModal">
+							<img src="http://javascript.tutorialhorizon.com/files/2015/07/javascript.png" alt="image displaying Javascript">
+						</a>
 						<h3>javascript</h3>
 						<a href="https://en.wikipedia.org/wiki/JavaScript">https://en.wikipedia.org/wiki/JavaScript</a>
 					</div>
@@ -76,4 +143,7 @@
 
 		</div>
 	</body>
+	<footer>
+		<script src="js/jrod-portfolio.js"></script>
+	</footer>
 </html>
