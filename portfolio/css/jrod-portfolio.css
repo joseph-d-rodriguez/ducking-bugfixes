@@ -13,12 +13,12 @@
 	margin-bottom: 10px;
 }
 
-.featured-work h2 {
+.featured-work-header {
 	color: lightgrey;
 	font-family: 'Lato', sans-serif;
 }
 
-.featured-work img {
+.featured-work-img {
 	width: 100%;
 	max-height: 160px;
 }
@@ -32,13 +32,13 @@
 	}
 }
 
-.featured-work h3 {
+.featured-work-title {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 }
 
-.featured-work a {
+.featured-work-link {
 	text-align: center;
 	display: block; /* This is needed for width to take affect and thus for centering to work */
 	width: 100%;
@@ -46,13 +46,22 @@
 	overflow: auto;
 }
 
-body {
-	margin-bottom: 15px;
-}
-
-h1, h4 {
+.joseph-rodriguez {
 	font-family: 'Quicksand', sans-serif;
 	color: grey;
 }
 
+.about-me-title {
+	color: lightgrey;
+	font-family: 'Lato', sans-serif;
+}
+
+.about-me-detail {
+	font-family: 'Lato', sans-serif;
+}
+
+.portfolio-container {
+	margin: 0 0 15px 0;
+	background: #D4BA8A;
+}
 
